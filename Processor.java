@@ -10,7 +10,6 @@ public class Processor {
     int currentTime = 0;
 
     public Processor(AlgorytmPlanowania algorytm) {
-        algorytm.setProcessor(this);
         this.algorytm = algorytm;
     }
 
